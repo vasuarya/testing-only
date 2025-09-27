@@ -9,3 +9,7 @@ jobs:
     steps:
       - name: Generate Workspace and Application
         run: echo "Generate workspace and Application"
+      - name: Another step
+        run: |
+              echo "first output"
+              echo "second output"
