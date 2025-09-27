@@ -1,0 +1,11 @@
+name: nightly-build-workflow
+
+on:
+  workflow_dispatch
+
+jobs:
+  nightly-build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Generate Workspace and Application
+        run: echo "Generate workspace and Application"
