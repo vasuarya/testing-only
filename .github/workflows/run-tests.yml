@@ -1,7 +1,6 @@
 name: Run Tests using github actions
 on:
-  workflow_dispatch
-  push
+    push
 
 jobs:
     runs-on: ubuntu-latest
